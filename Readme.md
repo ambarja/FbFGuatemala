@@ -1,7 +1,7 @@
 
 <img alt="Guatemala FbF" src="https://github.com/barja8/FbFGuatemala/blob/master/Img/LOGO%20FbF%20Spanish.jpg" align="right" width = 15%/>
 
-# :bar_chart: :chart_with_upwards_trend: :guatemala: **Guatemala Forecast Based Financing** :earth_americas: :world_map:
+# :bar_chart: :chart_with_upwards_trend: :guatemala: **Guatemala Forecast Based Financing**
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
