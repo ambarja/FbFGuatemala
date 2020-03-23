@@ -1,12 +1,12 @@
 
-<img alt="mastergis" src="" align="right" width = 15%/>
+<img alt="Guatemala FbF" src="https://github.com/barja8/FbFGuatemala/blob/master/Img/LOGO%20FbF%20Spanish.jpg" align="right" width = 15%/>
 
 # :bar_chart: :chart_with_upwards_trend: :guatemala: **Guatemala Forecast Based Financing** :earth_americas: :world_map:
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)]()
-[![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/barja8/COVID19PER/commits/master)
+[![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)](https://creativecommons.org/licenses/)
+[![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/barja8/FbFGuatemala/commits/maste)
 
 Este proyecto tiene como objetivo analizar, modelar,identificar, comunicar y tomar acciones y medidas de prevención frente a los diferentes pronósticos metereológicos emitido por las respectivas instituciones técnico científica, esto con la finalidad de poder llevar ayuda humanitaria días antes de la ocurrencia de un determinado fenómeno a los municipios más vulnerables o con altos índices de riesgo frente a las principales amanezanas de mayor ocurrencia e impacto en el país de Guatemala.
 
