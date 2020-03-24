@@ -15,7 +15,14 @@ En este repositorio encontrarás toda la información y datos disponibles con la
 Finalmente, este proyecto se irá actualizando según los nuevos datos o reportes de emergencias emitidos por las respectivas 
 autoriades encargadas de la temática.
 
+# Gráficos 
+![](./Gráficos/EMERGENCIAS_GUATEMALA_1990_2015.png)
+
+# Mapas
+![](./Mapas/Deslizamientos_Deparmento.png)
+
 ## Referencias utilizadas:
+- **DESINVENTAR**: <https://www.desinventar.net/DesInventar/main.jsp>
 - **QGIS** : <https://qgis.org/it/site/>
 - **Plugin DataPlotly** : <https://plugins.qgis.org/plugins/DataPlotly/>
 - **R y Rstudio** : <https://cran.r-project.org/> , <https://rstudio.com/>
