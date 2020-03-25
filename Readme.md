@@ -1,5 +1,5 @@
 
-<img alt="Guatemala FbF" src="https://github.com/barja8/FbFGuatemala/blob/master/Img/LOGO%20FbF%20Spanish.jpg" align="right" width = 17%/>
+<img alt="Guatemala FbF" src="https://github.com/barja8/FbFGuatemala/blob/master/Img/LOGO%20FbF%20Spanish.jpg" align="right" width = 15%/>
 
 # :bar_chart: :chart_with_upwards_trend: :guatemala: **Guatemala Forecast Based Financing**
 
