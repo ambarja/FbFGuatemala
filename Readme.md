@@ -21,8 +21,28 @@ autoriades encargadas de la temática.
 
 # Mapas
 
-![](./Mapas/Inundaciones_Deparmento.png) ![](./Mapas/Lluvias_Deparmento.png) 
-![](./Mapas/Sequías_Deparmento.png) ![](./Mapas/Deslizamientos_Deparmento.png) 
+<div id="columns">
+<div class="one-fourth">
+ <img src="https://github.com/barja8/FbFGuatemala/blob/master/Mapas/Inundaciones_Deparmento.png"alt="Image1" title="Image1" />
+<h4>Column 1</h4>
+<p>This is the first of four columns, 25%.</p>
+</div>
+<div class="one-fourth">
+<img src="https://github.com/barja8/FbFGuatemala/blob/master/Mapas/Lluvias_Deparmento.png" alt="Image2" title="Image2" />
+<h4>Column 2</h4>
+<p>This is the second of four columns, 25%.</p>
+</div>
+<div class="one-fourth">
+<img src="https://github.com/barja8/FbFGuatemala/blob/master/Mapas/Sequ%C3%ADas_Deparmento.png" alt="Image3" title="Image3" />
+<h4>Column 3</h4>
+<p>This is the third of four columns, 25%.</p>
+</div>
+<div class="one-fourth-last">
+<img src="https://github.com/barja8/FbFGuatemala/blob/master/Mapas/Deslizamientos_Deparmento.png" alt="Image4" title="Image4" />
+<h4>Column 4</h4>
+<p>This is the last of four columns, 25%.</p>
+</div>
+</div>
 
 
 ## Referencias utilizadas:
