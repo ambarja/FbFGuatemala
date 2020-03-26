@@ -10,7 +10,7 @@
 
 Este proyecto tiene como objetivo analizar, modelar,identificar, comunicar y tomar acciones y medidas de prevención frente a los diferentes pronósticos metereológicos emitido por las respectivas instituciones técnico científica, esto con la finalidad de poder llevar ayuda humanitaria días antes de la ocurrencia de un determinado fenómeno a los municipios más vulnerables o con altos índices de riesgo frente a las principales amanezanas de mayor ocurrencia e impacto en el país de Guatemala.
 
-En este repositorio encontrarás toda la información y datos disponibles con la cual se ha está trabajando, de igual manera encontrás gráficos, mapas y reportes estadísticos que pueden ayudarte a entender más sobre la caracterización e identificación de los componentes del riesgo.
+En este repositorio encontrarás toda la información y datos disponibles con la cual se ha está trabajando, de igual manera encontrás [gráficos](https://github.com/barja8/FbFGuatemala/tree/master/Gr%C3%A1ficos), [mapas](https://github.com/barja8/FbFGuatemala/tree/master/Mapas) y reportes estadísticos que pueden ayudarte a entender más sobre la caracterización e identificación de los componentes del riesgo.
 
 Finalmente, este proyecto se irá actualizando según los nuevos datos o reportes de emergencias emitidos por las respectivas 
 autoriades encargadas de la temática.
@@ -21,7 +21,9 @@ autoriades encargadas de la temática.
 
 # Mapas
 
-![](./Mapas/Inundaciones_Departamento.png) 
+![](./Mapas/Inundaciones_Deparmento.png) ![](./Mapas/Lluvias_Deparmento.png) 
+![](./Mapas/Sequías_Deparmento.png) ![](./Mapas/Deslizamientos_Deparmento.png) 
+
 
 ## Referencias utilizadas:
 - **DESINVENTAR**: <https://www.desinventar.net/DesInventar/main.jsp>
