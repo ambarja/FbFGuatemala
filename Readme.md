@@ -16,10 +16,11 @@ Finalmente, este proyecto se irá actualizando según los nuevos datos o reporte
 autoriades encargadas de la temática.
 
 # Gráficos 
-![](./Gráficos/EMERGENCIAS_GUATEMALA_1990_2015.png)
-
+![](./Gráficos/EMERGENCIAS_GUATEMALA_1990_2015_v2.png)
+![](./Gráficos/EventosxDamnificados.png)
 # Mapas
-![](./Mapas/Deslizamientos_Deparmento.png)
+![](./Mapas/Inundaciones_Departamento.png "Inundaciones") ![](./Mapas/Lluvias_Departamento.png "Luvias")
+![](./Mapas/Sequías_Departamento.png "Sequías") ![](./Mapas/Deslizamientos_Departamento.png "Deslizamientos")
 
 ## Referencias utilizadas:
 - **DESINVENTAR**: <https://www.desinventar.net/DesInventar/main.jsp>
