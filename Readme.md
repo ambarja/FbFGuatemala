@@ -20,10 +20,13 @@ autoriades encargadas de la temática.
 ![](./Gráficos/EventosxDamnificados.png)
 
 # Mapas
-![](../Mapas/Inundaciones_Departamento.png) 
-![](../Mapas/Lluvias_Departamento.png)
-![](../Mapas/Sequías_Departamento.png) 
-![](../Mapas/Deslizamientos_Departamento.png)
+![](./Mapas/Inundaciones_Departamento.png) 
+
+![](./Mapas/Lluvias_Departamento.png)
+
+![](./Mapas/Sequías_Departamento.png) 
+
+![](./Mapas/Deslizamientos_Departamento.png)
 
 ## Referencias utilizadas:
 - **DESINVENTAR**: <https://www.desinventar.net/DesInventar/main.jsp>
