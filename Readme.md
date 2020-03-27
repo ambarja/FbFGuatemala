@@ -15,8 +15,6 @@ En este repositorio encontrarás toda la información y datos disponibles con la
 Finalmente, este proyecto se irá actualizando según los nuevos datos o reportes de emergencias emitidos por las respectivas 
 autoriades encargadas de la temática.
 
-# Gráficos 
-
 ## Registros históricos 
 ![](./Gráficos/EMERGENCIAS_GUATEMALA_1990_2015_V2.png)
 
