@@ -16,10 +16,10 @@ Finalmente, este proyecto se irá actualizando según los nuevos datos o reporte
 autoriades encargadas de la temática.
 
 ## Registros históricos 
-![](./Gráficos/EMERGENCIAS_GUATEMALA_1990_2015_V2.png)
+![](./Gráficos/EMERGENCIAS_GUATEMALA_1990_2015_V3.png)
 
 ## Principales amenazas 
-![](./Gráficos/EventosxDamnificados.png)
+![](./Gráficos/Frecuencia_Eventos.png)
 
 ## Mapas
 

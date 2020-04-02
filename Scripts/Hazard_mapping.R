@@ -5,7 +5,6 @@ library(sf)
 library(tmap)
 library(extrafont)
 library(viridis)
-library(forcats)
 
 # Lectura de datos --------------------------------------------------------
 read_csv('../Datos/Datos-Historicos_v1.csv')%>% 
@@ -51,6 +50,7 @@ newdata <- newdata %>%
 
 # Gráficos :: Eventos por afectados  --------------------------------------
 options(scipen=10000)
+
 
 newdata %>% 
   group_by(Evento) %>%
@@ -124,25 +124,26 @@ ggsave(filename = '../Gráficos/EventosxDamnificados.png',
 
 # Graficos :: Frecuencia de eventos ---------------------------------------
 
-vista = newdata %>%
-  select(Evento) %>% 
-  mutate(n = n()) %>% 
-  group_by(Evento) %>% 
-  summarise(total = sum(n)) %>% 
-  arrange(desc(total))
-
 newdata %>%
   select(Evento) %>% 
-  mutate(n = n()) %>% 
-  group_by(Evento) %>% 
-  summarise(total = sum(n)) %>% 
+  table() %>% 
+  as_tibble() %>% 
+  arrange(desc(n))-> vista
+vista <- vista[1:14,]
+colnames(vista) <- c('Evento','total')
+
+rm <- -1*c(10,12,5,14,8,7,6)
+vista <- vista[rm,]
+
+vista %>% 
+  select(Evento,total) %>% 
   ggplot(aes(x = reorder(Evento,total) ,y = total, fill = total)) +
   geom_bar(stat = 'identity') +
   coord_flip() + 
   labs(y = 'Frecuencia de eventos',
        x= '') +
-  scale_y_discrete(limits = seq(0,9000000  ,length.out = 5),
-                   labels = c("0","225k","450k","675k","900k")) + 
+  scale_y_discrete(limits = seq(0,1600  ,length.out = 5),
+                   labels = c("0","400","800","1200","1600")) + 
   scale_fill_viridis() +
   theme_light() + 
   theme(legend.text = element_text(family  = 'DejaVu Sans Mono',
@@ -157,7 +158,11 @@ newdata %>%
         axis.title.x = element_text(family = 'DejaVu Sans Mono', 
                                     face   = 'bold', 
                                     color  = 'black'), 
-        legend.position = 'none') 
+        legend.position = 'none') + 
+  labs(caption = 'Fuente: Elaboración propia con datos recolectados de DesInventar project') + 
+  theme(plot.caption = element_text(family = 'DejaVu Sans Mono',
+                                    size = 8,
+                                    face = 'bold'))
 
 ggsave(filename = '../Gráficos/Frecuencia_Eventos.png',
        plot = last_plot(),width = 12,height = 6)
