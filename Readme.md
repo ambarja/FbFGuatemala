@@ -16,20 +16,11 @@ Finalmente, este proyecto se irá actualizando según los nuevos datos o reporte
 autoriades encargadas de la temática.
 
 ## Registros históricos 
-![](./Gráficos/EMERGENCIAS_GUATEMALA_1990_2015_V3.png)
+<img src= './Gráficos/EMERGENCIAS_GUATEMALA_1990_2015_V3.png' width= 430, aling = 'left'><img src = './Gráficos/Frecuencia_Eventos.png' width= 430, aling= 'right'>
 
-## Principales amenazas 
-![](./Gráficos/Frecuencia_Eventos.png)
 
 ## Mapas
-
-<div class="row">
-    <img src="https://github.com/barja8/FbFGuatemala/blob/master/Mapas/Inundaciones_Deparmento.png" alt="Snow" style="width:25%">
-  </div>
-  <div class="column">
-    <img src="https://github.com/barja8/FbFGuatemala/blob/master/Mapas/Sequ%C3%ADas_Deparmento.png" alt="Forest" style="width:25%">
-  </div>
-
+<img src="https://github.com/barja8/FbFGuatemala/blob/master/Mapas/Inundaciones_Deparmento.png" width= 430, aling = 'left'><img src="https://github.com/barja8/FbFGuatemala/blob/master/Mapas/Sequ%C3%ADas_Deparmento.png" width= 430, aling= 'right'>
 
 
 ## Referencias utilizadas:
