@@ -7,7 +7,7 @@ library(extrafont)
 library(viridis)
 
 # Lectura de datos --------------------------------------------------------
-read_csv('../Datos/Datos-Historicos_v1.csv')%>% 
+read_csv('../Datos/Tablas/Datos-Historicos_v1.csv')%>% 
   as_tibble() %>% 
   mutate(Evento       = as.factor(Evento),
          Departamento = as.factor(Departamento),
@@ -230,7 +230,7 @@ data %>%
   group_by(Departamento) %>% 
   summarise(total = sum(Afectados)) -> tabla
 
-shp <- st_read('../SHP/departamentos_gtm/departamentos_gtm.shp') 
+shp <- st_read('../Datos/SHP/departamentos_gtm/departamentos_gtm.shp') 
 join <- left_join(x = shp,y = tabla, by = c('nombre'='Departamento'))  
 
 join %>% 
@@ -255,7 +255,7 @@ newdata %>%
   group_by(Departamento) %>%
   summarise(Total = sum(Damnificados)) -> tabla
 
-shp <- st_read('../SHP/departamentos_gtm/departamentos_gtm.shp') 
+shp <- st_read('../Datos/SHP/departamentos_gtm/departamentos_gtm.shp') 
 join <- left_join(x = shp,y = tabla, by = c('nombre'='Departamento')) %>% 
   mutate(Total = if_else(is.na(Total), 0, Total))
 anti_join(x = shp,y = tabla, by = c('nombre'='Departamento'))
@@ -284,7 +284,7 @@ newdata %>%
   group_by(Departamento) %>%
   summarise(Total = sum(Damnificados)) -> tabla
 
-shp <- st_read('../SHP/departamentos_gtm/departamentos_gtm.shp') 
+shp <- st_read('../Datos/SHP/departamentos_gtm/departamentos_gtm.shp') 
 join <- left_join(x = shp,y = tabla, by = c('nombre'='Departamento')) %>% 
   mutate(Total = if_else(is.na(Total), 0, Total))
 anti_join(x = shp,y = tabla, by = c('nombre'='Departamento'))
@@ -312,7 +312,7 @@ data %>%
   group_by(Departamento) %>% 
   summarise(total = sum(Afectados)) -> tabla
 
-shp <- st_read('../SHP/departamentos_gtm/departamentos_gtm.shp') 
+shp <- st_read('../Datos/SHP/departamentos_gtm/departamentos_gtm.shp') 
 join <- left_join(x = shp,y = tabla, by = c('nombre'='Departamento'))  
 
 join %>% 
@@ -336,7 +336,7 @@ newdata %>%
   group_by(Departamento) %>%
   summarise(Total = sum(Damnificados)) -> tabla
 
-shp <- st_read('../SHP/departamentos_gtm/departamentos_gtm.shp') 
+shp <- st_read('../Datos/SHP/departamentos_gtm/departamentos_gtm.shp') 
 join <- left_join(x = shp,y = tabla, by = c('nombre'='Departamento')) %>% 
   mutate(Total = if_else(is.na(Total), 0, Total))
 anti_join(x = shp,y = tabla, by = c('nombre'='Departamento'))
