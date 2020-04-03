@@ -8,7 +8,7 @@
 [![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)](https://creativecommons.org/licenses/)
 [![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/barja8/FbFGuatemala/commits/master)
 
-Este proyecto tiene como objetivo analizar, modelar,identificar, comunicar y tomar acciones y medidas de prevención frente a los diferentes pronósticos metereológicos emitido por las respectivas instituciones técnico científica, esto con la finalidad de poder llevar ayuda humanitaria días antes de la ocurrencia de un determinado fenómeno a los municipios más vulnerables o con altos índices de riesgo frente a las principales amanezanas de mayor ocurrencia e impacto en el país de Guatemala.
+Este proyecto tiene como objetivo analizar, modelar,identificar, comunicar y tomar acciones y medidas de prevención frente a los diferentes pronósticos metereológicos emitido por las respectivas instituciones técnico científica, esto con la finalidad de poder llevar ayuda humanitaria días antes de la ocurrencia de un determinado fenómeno a los municipios más vulnerables o con altos índices de riesgo frente a las principales amanezanas de mayor ocurrencia e impacto en el país de **Guatemala**.
 
 En este repositorio encontrarás toda la información y datos disponibles con la cual se ha está trabajando, de igual manera encontrás [gráficos](https://github.com/barja8/FbFGuatemala/tree/master/Gr%C3%A1ficos), [mapas](https://github.com/barja8/FbFGuatemala/tree/master/Mapas) y reportes estadísticos que pueden ayudarte a entender más sobre la caracterización e identificación de los componentes del riesgo.
 
