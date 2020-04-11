@@ -27,6 +27,7 @@ autoriades encargadas de la temática.
 - **DESINVENTAR**: <https://www.desinventar.net/DesInventar/main.jsp>
 - **QGIS** : <https://qgis.org/it/site/>
 - **R y Rstudio** : <https://cran.r-project.org/> , <https://rstudio.com/>
+- **WSPOffice** : <https://www.wps.com/>
 
 ![](./Img/istat88x31.png)Todos los datos producidos en el presente proyecto se publican bajo [licencia Creative Commons (CC BY 3.0 IT)](https://creativecommons.org/share-your-work/): Es posible reproducir, distribuir, transmitir y adaptar libremente datos,  también con fines comerciales, siempre que se cite la **fuente**.
 
